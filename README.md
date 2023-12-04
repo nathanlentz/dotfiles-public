@@ -7,3 +7,4 @@ Don't use my settings unless you know what that entails.
 - vim (Neovim) config
 - tmux config
 - fish config
+- raycast

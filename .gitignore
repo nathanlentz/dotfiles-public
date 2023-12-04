@@ -25,6 +25,7 @@ node_modules
 bower_components
 fishd.*
 yarn/
+iterm2/
 
 # Vim
 Session.vim
