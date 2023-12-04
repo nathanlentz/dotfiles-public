@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "create-nuxt-app": "^5.0.0",
+    "turbo": "^1.8.3"
+  }
+}
