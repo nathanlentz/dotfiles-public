@@ -26,6 +26,8 @@ bower_components
 fishd.*
 yarn/
 iterm2/
+raycast/
+Microsoft\VisualStudio Services
 
 # Vim
 Session.vim
