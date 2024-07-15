@@ -18,6 +18,7 @@ alias lla "ll -A"
 alias g git
 alias gclean "git branch | grep -v main | xargs git branch -D"
 alias nv "nvim ."
+alias lg "lazygit "
 command -qv nvim && alias vim nvim
 
 # dotnet3 

@@ -13,6 +13,8 @@ keymap.set("n", "<C-d>", "gg<S-v>G")
 keymap.set("n", "te", ":tabedit")
 keymap.set("n", "<tab>", ":tabnext<Return>", opts)
 keymap.set("n", "<s-tab>", ":tabprev<Return>", opts)
+keymap.set("v", "K", ":m-2<cr>gv=gv", { silent = true })
+keymap.set("v", "J", ":m'>+<cr>gv=gv", { silent = true })
 
 -- Substitue
 keymap.set("n", "s", require("substitute").operator, { noremap = true })

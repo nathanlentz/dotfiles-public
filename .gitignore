@@ -27,7 +27,11 @@ fishd.*
 yarn/
 iterm2/
 raycast/
-Microsoft\VisualStudio Services
+Microsoft/VisualStudio Services/
+configstore/
+kitty/
+posting/
+zed/
 
 # Vim
 Session.vim
@@ -70,4 +74,5 @@ Pods/
 .config/fish/fish_variables.x86_64
 
 # Karabiner
+karabiner/
 .config/karabiner/automatic_backups
