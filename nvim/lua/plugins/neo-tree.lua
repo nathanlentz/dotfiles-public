@@ -14,6 +14,9 @@ return {
         never_show = {
           ".DS_Store",
         },
+        always_show = {
+          ".env",
+        },
       },
     },
   },

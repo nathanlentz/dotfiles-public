@@ -16,6 +16,8 @@ keymap.set("n", "<s-tab>", ":tabprev<Return>", opts)
 keymap.set("v", "K", ":m-2<cr>gv=gv", { silent = true })
 keymap.set("v", "J", ":m'>+<cr>gv=gv", { silent = true })
 
+keymap.set("n", "<D-.>", vim.lsp.buf.code_action, { desc = "LSP Code Action", silent = true })
+
 -- Substitue
 keymap.set("n", "s", require("substitute").operator, { noremap = true })
 keymap.set("n", "ss", require("substitute").line, { noremap = true })
