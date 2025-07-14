@@ -23,6 +23,9 @@ keymap.set("n", "s", require("substitute").operator, { noremap = true })
 keymap.set("n", "ss", require("substitute").line, { noremap = true })
 keymap.set("n", "S", require("substitute").eol, { noremap = true })
 keymap.set("x", "s", require("substitute").visual, { noremap = true })
+keymap.set("n", "]d", vim.diagnostic.goto_next, { desc = "Next diagnostic" })
+keymap.set("n", "[d", vim.diagnostic.goto_prev, { desc = "Previous diagnostic" })
+keymap.set("n", "gb", "<C-t>", { desc = "Go back" })
 
 -- Use Black Hole Register for deletes
 -- keymap.set({ "n", "v" }, "<leader-x>", '"_x')
